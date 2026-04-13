@@ -1,0 +1,23 @@
+{
+  "skill_name": "web-content-extractor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you extract and summarize the content from this Wikipedia page about artificial intelligence? https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "expected_output": "A cleaned markdown version of the Wikipedia article with structured sections and a concise summary highlighting key points about AI definition, history, approaches, applications, and ethical considerations.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need the main content from this tech blog post about React performance optimization. Please extract the text and give me a summary. https://react.dev/learn/performance",
+      "expected_output": "Extracted React documentation content about performance optimization, with cleaned markdown preserving code examples and technical details, plus a summary of key optimization techniques and best practices.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Summarize this news article about climate change for me. https://www.bbc.com/news/science-environment-67718733",
+      "expected_output": "Clean news article text with journalistic structure preserved, summary highlighting key findings, sources, dates, and implications of the climate change report.",
+      "files": []
+    }
+  ]
+}

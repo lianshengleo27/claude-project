@@ -3,7 +3,12 @@
     "allow": [
       "Bash(git commit:*)",
       "Bash(git remote:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Skill(article-extractor)",
+      "Bash(python.exe:*)",
+      "Bash(where:*)",
+      "Bash(python:*)",
+      "Bash(rm:*)"
     ]
   }
 }
